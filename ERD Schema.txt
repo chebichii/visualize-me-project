@@ -1,0 +1,24 @@
+obesity_table
+-
+year VARCHAR   
+stateabbr VARCHAR 
+statename VARCHAR  
+cityname VARCHAR 
+obesitypercentage VARCHAR
+Population2010 VARCHAR
+latitude FLOAT 
+longitude FLOAT  
+
+cdc_data
+-
+stateid VARCHAR
+percentage(obese) FLOAT
+gender VARCHAR
+
+
+census_data;
+-
+state VARCHAR PK
+"totalpopulation(census 2010)" INTEGER
+"opulation(est 2014)" INTEGER
+	
