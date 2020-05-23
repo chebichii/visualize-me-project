@@ -27,12 +27,12 @@ CREATE TABLE "cdc_data" (
      )
 );
 
-CREATE TABLE "census_data;" (
+CREATE TABLE "census_data" (
     "id" int   NOT NULL,
     "state" VARCHAR   NOT NULL,
     "totalpopulation_census_2010" INTEGER   NOT NULL,
     "population_est_2014" INTEGER   NOT NULL,
-    CONSTRAINT "pk_census_data;" PRIMARY KEY (
+    CONSTRAINT "pk_census_data" PRIMARY KEY (
         "id"
      )
 );
