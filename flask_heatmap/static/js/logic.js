@@ -57,7 +57,7 @@ console.log(data);
 
     // Binding a pop-up to each layer
     onEachFeature: function(feature, layer) {
-      layer.bindPopup("sample size: " + feature.properties.Population2010 + "<br>Percentage of people with Obesity:<br>" +
+      layer.bindPopup("city name: " + feature.properties.cityname + "<br>sample size: " + feature.properties.Population2010 + "<br>Percentage of people with Obesity:<br>" +
         "%" + feature.properties.obesitypercentage);
     }
   }).addTo(myMap);
