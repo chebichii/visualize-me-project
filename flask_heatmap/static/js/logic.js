@@ -33,7 +33,7 @@ console.log(data);
     
 
     // Set color scale
-    scale: ["#00FF00", "#0000FF"],
+    scale: ["#ffffb2", "#b10026"],
 
     // Number of breaks in step range
     steps: 10,
